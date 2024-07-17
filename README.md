@@ -19,7 +19,7 @@ In such a scenario, there are probably multiple threads executing IO processes, 
 
 Note: only x64 architecture is supported.
 
-Clone the repo and build *both* projects. 
+Clone the repo and build *both* projects. `IoPerf` depends on WDK and a Windows SDK.
 
 Install the kernel driver by right-clicking the `.inf` file and select the `Install` option.
 
